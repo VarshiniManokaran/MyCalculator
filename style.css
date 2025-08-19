@@ -1,0 +1,70 @@
+*{
+  margin:0px ;
+  padding: 1px;
+}
+
+.input{
+  padding: 40px 20px;
+  border: 6px solid rosybrown;
+  border-radius: 30px;
+  text-align: right;
+  font-size: larger;
+}
+h1{
+  background-color:blueviolet;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-inline-start: auto;
+  text-transform:uppercase;
+
+
+}
+
+.container{
+    text-align: center;
+    box-shadow: 0px 0px 0px 10px black;
+    margin-top: 30px;
+    margin-left: 60%;
+    margin-right: 170px;
+    margin-bottom: 26px;
+}
+
+.display{
+  width: 322  px;
+  background-color:rgb(255, 0, 170);
+  height: 80px;
+
+}
+
+.button .display{
+  height: 100px;
+  line-height: 100px;
+  width:auto;
+  border: 20px solid black;
+  background-color: black;
+  text-align: right;
+  padding: 1px 20px;
+  color:white;
+  font-weight: bold;
+}
+
+#buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+ 
+}
+
+#buttons .button{
+  border: 1px solid green;
+  border-top: 1px solid orangered;
+  border-right: 1px solid orangered;
+  font-size: 20px;
+  line-height: 80px;
+  cursor: pointer;
+ 
+  
+}
+
+#buttons .button:hover{
+  background-color:grey;
+
+}
